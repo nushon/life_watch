@@ -1,0 +1,27 @@
+{
+  "name": "life_watch",
+  "version": "1.0.0",
+  "description": "A directory of all the new births and deaths in Liberia recorded by the hospitals or clinics. It helps the government or NGOs to track the birth and death rates in Liberia depending on their desire; by location, hospitals, year or month.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nushon/life_watch.git"
+  },
+  "author": "Albin Nushon Karmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nushon/life_watch/issues"
+  },
+  "homepage": "https://github.com/nushon/life_watch#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node": "^20.6.0",
+    "nodemon": "^3.0.1",
+    "sqlite3": "^5.1.6"
+  }
+}
